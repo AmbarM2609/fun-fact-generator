@@ -187,19 +187,6 @@ def display_greeting():
 
     st.markdown('<div class="nb-title">Fun Facts</div>', unsafe_allow_html=True)
 
-    st.markdown(
-        """
-        <div class="nb-card">
-            <h3 style="margin:0; font-weight:500;font-size: 1.4rem;">Instructions:</h3>
-            <ul>
-                <li>Click <b>“New Fact”</b> to generate a new fun fact.</li>
-                <li >Click <b>“Copy Fact”</b> to copy the current fact.</li>
-            </ul>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
 
 def display_fact_box():
     fact = get_fact()
@@ -245,6 +232,20 @@ def display_buttons():
                 args=(fact,),
             )
         st.markdown("</div>", unsafe_allow_html=True)
+        
+    st.markdown(
+        """
+        <div class="nb-card">
+            <h3 style="margin:0; font-weight:500;font-size: 1.4rem;">Instructions:</h3>
+            <ul>
+                <li>Click <b>“New Fact”</b> to generate a new fun fact.</li>
+                <li >Click <b>“Copy Fact”</b> to copy the current fact.</li>
+            </ul>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
 
 
 

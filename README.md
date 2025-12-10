@@ -1,4 +1,4 @@
-# 🤪 Fun Fact Generator
+# Fun Fact Generator
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fun-fact-generator-by-ambar-mestry.streamlit.app/)
 
